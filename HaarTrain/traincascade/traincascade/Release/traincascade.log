@@ -1,0 +1,28 @@
+﻿生成启动时间为 2013-11-02  19:32:14。
+     1>项目“F:\PROJECTS\MyOpenCV\traincascade\traincascade\traincascade.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         F:\WIN7\VS2012\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt traincascade\boost.cpp traincascade\cascadeclassifier.cpp traincascade\features.cpp traincascade\haarfeatures.cpp traincascade\HOGfeatures.cpp traincascade\imagestorage.cpp traincascade\lbpfeatures.cpp
+         boost.cpp
+         cascadeclassifier.cpp
+         features.cpp
+         haarfeatures.cpp
+         HOGfeatures.cpp
+         imagestorage.cpp
+         lbpfeatures.cpp
+       Link:
+         F:\WIN7\VS2012\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\PROJECTS\MyOpenCV\traincascade\Release\traincascade.exe" /INCREMENTAL:NO /NOLOGO opencv_calib3d244d.lib opencv_contrib244d.lib opencv_core244d.lib opencv_features2d244d.lib opencv_flann244d.lib opencv_gpu244d.lib opencv_highgui244d.lib opencv_imgproc244d.lib opencv_legacy244d.lib opencv_ml244d.lib opencv_nonfree244d.lib opencv_objdetect244d.lib opencv_photo244d.lib opencv_stitching244d.lib opencv_ts244d.lib opencv_video244d.lib opencv_videostab244d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\PROJECTS\MyOpenCV\traincascade\Release\traincascade.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\PROJECTS\MyOpenCV\traincascade\Release\traincascade.lib" /MACHINE:X86 /SAFESEH Release\boost.obj
+         Release\cascadeclassifier.obj
+         Release\features.obj
+         Release\haarfeatures.obj
+         Release\HOGfeatures.obj
+         Release\imagestorage.obj
+         Release\lbpfeatures.obj
+         Release\traincascade.obj
+         正在生成代码
+         已完成代码的生成
+         traincascade.vcxproj -> F:\PROJECTS\MyOpenCV\traincascade\Release\traincascade.exe
+     1>已完成生成项目“F:\PROJECTS\MyOpenCV\traincascade\traincascade\traincascade.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:15.99

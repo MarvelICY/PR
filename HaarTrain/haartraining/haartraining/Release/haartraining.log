@@ -1,0 +1,48 @@
+﻿生成启动时间为 2013-11-02  16:59:13。
+     1>项目“F:\PROJECTS\MyOpenCV\haartraining\haartraining\haartraining.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         F:\WIN7\VS2012\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\HaarTrain\HaarTrain\haartraining\cvboost.cpp ..\..\HaarTrain\HaarTrain\haartraining\cvcommon.cpp ..\..\HaarTrain\HaarTrain\haartraining\cvhaarclassifier.cpp ..\..\HaarTrain\HaarTrain\haartraining\cvhaartraining.cpp ..\..\HaarTrain\HaarTrain\haartraining\cvsamples.cpp
+         cvboost.cpp
+     1>f:\win7\opencv\build\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 F:\WIN7\VS2012\VC\include\stdio.h(218) : 参见“fopen”的声明
+     1>..\..\HaarTrain\HaarTrain\haartraining\cvboost.cpp(3088): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 F:\WIN7\VS2012\VC\include\stdio.h(218) : 参见“fopen”的声明
+     1>..\..\HaarTrain\HaarTrain\haartraining\cvboost.cpp(3395): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 F:\WIN7\VS2012\VC\include\stdio.h(218) : 参见“fopen”的声明
+     1>..\..\HaarTrain\HaarTrain\haartraining\cvboost.cpp(3401): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 F:\WIN7\VS2012\VC\include\stdio.h(237) : 参见“fscanf”的声明
+     1>..\..\HaarTrain\HaarTrain\haartraining\cvboost.cpp(3420): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 F:\WIN7\VS2012\VC\include\stdio.h(237) : 参见“fscanf”的声明
+     1>..\..\HaarTrain\HaarTrain\haartraining\cvboost.cpp(3445): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 F:\WIN7\VS2012\VC\include\stdio.h(237) : 参见“fscanf”的声明
+     1>..\..\HaarTrain\HaarTrain\haartraining\cvboost.cpp(3450): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 F:\WIN7\VS2012\VC\include\stdio.h(237) : 参见“fscanf”的声明
+     1>..\..\HaarTrain\HaarTrain\haartraining\cvboost.cpp(3575): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 F:\WIN7\VS2012\VC\include\stdio.h(218) : 参见“fopen”的声明
+     1>..\..\HaarTrain\HaarTrain\haartraining\cvboost.cpp(3581): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 F:\WIN7\VS2012\VC\include\stdio.h(237) : 参见“fscanf”的声明
+     1>..\..\HaarTrain\HaarTrain\haartraining\cvboost.cpp(3599): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 F:\WIN7\VS2012\VC\include\stdio.h(237) : 参见“fscanf”的声明
+     1>..\..\HaarTrain\HaarTrain\haartraining\cvboost.cpp(3610): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 F:\WIN7\VS2012\VC\include\stdio.h(237) : 参见“fscanf”的声明
+     1>..\..\HaarTrain\HaarTrain\haartraining\cvboost.cpp(3676): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 F:\WIN7\VS2012\VC\include\stdio.h(218) : 参见“fopen”的声明
+         cvcommon.cpp
+         cvhaarclassifier.cpp
+         cvhaartraining.cpp
+         cvsamples.cpp
+       Link:
+         F:\WIN7\VS2012\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\PROJECTS\MyOpenCV\haartraining\Release\haartraining.exe" /INCREMENTAL:NO /NOLOGO opencv_calib3d244d.lib opencv_contrib244d.lib opencv_core244d.lib opencv_features2d244d.lib opencv_flann244d.lib opencv_gpu244d.lib opencv_highgui244d.lib opencv_imgproc244d.lib opencv_legacy244d.lib opencv_ml244d.lib opencv_nonfree244d.lib opencv_objdetect244d.lib opencv_photo244d.lib opencv_stitching244d.lib opencv_ts244d.lib opencv_video244d.lib opencv_videostab244d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\PROJECTS\MyOpenCV\haartraining\Release\haartraining.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\PROJECTS\MyOpenCV\haartraining\Release\haartraining.lib" /MACHINE:X86 /SAFESEH Release\cvboost.obj
+         Release\cvcommon.obj
+         Release\cvhaarclassifier.obj
+         Release\cvhaartraining.obj
+         Release\cvsamples.obj
+         Release\haartraining.obj
+         正在生成代码
+         已完成代码的生成
+         haartraining.vcxproj -> F:\PROJECTS\MyOpenCV\haartraining\Release\haartraining.exe
+     1>已完成生成项目“F:\PROJECTS\MyOpenCV\haartraining\haartraining\haartraining.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:09.30

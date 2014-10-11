@@ -1,0 +1,21 @@
+﻿生成启动时间为 2014/1/17 19:10:31。
+     1>项目“D:\Projects\MyOpenCV\HaarTrain\createsamples\createsamples\createsamples.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\Appkit\VS2012\VC\bin\CL.exe /c /ID:\Libs\OpenCV248\opencv\build\x86\vc11\bin /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt createsamples.cpp cvboost.cpp cvcommon.cpp cvhaarclassifier.cpp cvhaartraining.cpp cvsamples.cpp
+         createsamples.cpp
+     1>createsamples.cpp(56): fatal error C1083: 无法打开包括文件:“cvhaartraining.h”: No such file or directory
+         cvboost.cpp
+     1>cvboost.cpp(64): fatal error C1083: 无法打开包括文件:“_cvcommon.h”: No such file or directory
+         cvcommon.cpp
+     1>cvcommon.cpp(42): fatal error C1083: 无法打开包括文件:“_cvcommon.h”: No such file or directory
+         cvhaarclassifier.cpp
+     1>cvhaarclassifier.cpp(48): fatal error C1083: 无法打开包括文件:“_cvhaartraining.h”: No such file or directory
+         cvhaartraining.cpp
+     1>cvhaartraining.cpp(48): fatal error C1083: 无法打开包括文件:“cvhaartraining.h”: No such file or directory
+         cvsamples.cpp
+     1>cvsamples.cpp(48): fatal error C1083: 无法打开包括文件:“cvhaartraining.h”: No such file or directory
+     1>已完成生成项目“D:\Projects\MyOpenCV\HaarTrain\createsamples\createsamples\createsamples.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.50
